@@ -42,77 +42,9 @@
 					  <td scope="col"><div id = "getHours">Working Hours</div></td>
 					</tr>
 				  </table>
-                  <h5><b>Manual:</b></h5>
-                   <table class="table table-bordered">
-				  <thead>
-					<tr>
-					
-					  <th>In Time</th>
-					  <th id="datepairExample" >	
-					
-						<div><div id="iTime"></div><input id="sttime" type="text" class="time start" /></div>
-						<!--<input type="text" class="date end" /> -->
-					</th>
-					  <th><button id="changebt" class="btn btn-primary">Change</button></th>
-					</tr>
-				  </thead>
-				   <tr>
-					  
-					  <td scope="col">Out Time</div></td>
-					  <td scope="col" id="datepairExample">
-						
-						<div><div id="endTime"></div><input id="endtime" type="text" class="time start" /></div>
-						</td>
-					  <td scope="col"><button id="echangebt" class="btn btn-primary">Change</button></div></td>
-					</tr>
-				  </table>
-                  
-                  
-                  
-                  <h5><b>Daily Timesheet:</b></h5>
-        <table class="table table-hover"  style="padding-bottom:3px">
-           <thead>
-             <tr>
-                
-                 <th scope="col">Project</th>
-                 <th scope="col">Hours Worked</th>
-                 <th scope="col">Task</th>
                  
-             </tr>
-           </thead>
-           <tbody>
-                <tr>
-               
-    <td><div class="form-group">
-    <select required class="custom-select" id = "sel_proj">
-      <option selected="true" disabled="true" value = "defaultVal">Project</option>
-	  <?php // $x=0; while($x!=3){ ?>
-	  <option value="<?php // echo $proj_conf[$x]['project_id'];?>"><?php //echo $proj_conf[$x]['project_name']; $x++;}?></option>
-
-    </select>
-  </div></td>
-    <td><div class="form-group">
-    <select class="custom-select" id = "sel_hours" required>
-      <option selected="true" disabled="true" value = "defaultVal">Hours</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-    </select>
-  </div></td>
-    <td><div class="form-group">
-    <select class="custom-select" id = "sel_task" required="required">
-      <option selected="true" disabled="true" value = "defaultVal">Select Task</option>
-      <option value="1">Design</option>
-      <option value="2">Coding</option>
-	  <option value="3">Integration</option>
-      <option value="4">Testing</option>
-	  <option value="5">Support</option>
-    </select>
-  </div></td>
-               
-            </tr>
-            </tbody>
-	</table>
+                  
+           
 		<div style="padding-bottom:20px; padding-left:10px; padding-right:10px">      
 
 		<input style="width:100%; height:100px" type="text" placeholder="Task Description" id = "sel_desc" value = ""/></div>
