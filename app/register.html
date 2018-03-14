@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<strong>Register an Account</strong>
+	<form action = "register.php" method ="POST">
+		<label>Name</label>
+		<input class="form-control" id="firstname" type="text" name = "name"placeholder="Enter first name" required><br>
+		
+		<label>Roll id</label>
+		<input class="form-control" id="lastname" type="text" name = "roll" placeholder="Enter roll id"><br>
+		
+		<label>Email address</label>
+		<input class="form-control" id="InputEmail" type="email" name = "email"onkeyup="checkEmail()" aria-describedby="emailHelp" placeholder="Enter email"><br>
+		
+		<label for="InputPassword1">Password</label>
+		<input class="form-control" id="InputPassword1" type="password" name = "password" placeholder="Password" onkeyup="passwordChecker()" required><br>
+		
+		<button type ="submit"  class="btn btn-primary btn-block" name ="register">Register</button>  
+	</form>
+</body>
+</html>
